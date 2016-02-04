@@ -97,7 +97,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  curb
+  curb (~> 0.8)
   dashing
   json
   twitter (>= 5.9.0)

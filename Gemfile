@@ -6,5 +6,5 @@ gem 'dashing'
 gem 'twitter', '>= 5.9.0'
 
 ## Netatmo deps
-gem 'curb'
+gem 'curb', "~>0.8"
 gem 'json'
