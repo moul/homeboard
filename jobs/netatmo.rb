@@ -25,10 +25,10 @@ config = YAML.load_file("config/netatmo.yml")
 
 parameters = [
     Curl::PostField.content('grant_type', 'password'),
-    Curl::PostField.content('client_id', config['app_id']),
-    Curl::PostField.content('client_secret', config['app_secret']),
-    Curl::PostField.content('username', config['username']),
-    Curl::PostField.content('password', config['password']),
+    Curl::PostField.content('client_id', ENV["NETATMO_CLIENT_ID"]),
+    Curl::PostField.content('client_secret', ENV["NETATMO_CLIENT_SECRET"]),
+    Curl::PostField.content('username', ENV["NETATMO_USERNAME"]),
+    Curl::PostField.content('password', ENV["NETATMO_PASSWORD"]),
     Curl::PostField.content('scope', 'read_station')
 ]
 
