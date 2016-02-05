@@ -20,7 +20,7 @@ $cold1: #2F74FF; // 5 to 9
 $cool2: #25D6A4; // 10 to 14
 $cool1: #B9CC5A; // 15 to 19
 $warm: #ff9d37;// 20 to 24
-$hot: #ff5131; // 25 and above 
+$hot: #ff5131; // 25 and above
 
 
 // ----------------------------------------------------------------------------
@@ -28,7 +28,7 @@ $hot: #ff5131; // 25 and above
 // ----------------------------------------------------------------------------
 .widget-verbinski {
 
-  .cold5 { background-color: $cold5; } 
+  .cold5 { background-color: $cold5; }
   .cold4 { background-color: $cold4; }
   .cold3 { background-color: $cold3; }
   .cold2 { background-color: $cold2; }
@@ -44,17 +44,18 @@ $hot: #ff5131; // 25 and above
     height: 100%;
 
     .column-inner {
-      padding: 20px 30px;
+      //padding: 20px 30px;
+      padding: 30px 0 0 0;
 
-      .title { 
-        color: $light-colour; 
+      .title {
+        color: $light-colour;
         text-transform: uppercase;
       }
 
       .temp { color: $full-colour; }
 
-      .summary { 
-        color: $full-colour; 
+      .summary {
+        color: $full-colour;
         text-align: left;
       }
 
@@ -75,16 +76,16 @@ $hot: #ff5131; // 25 and above
         }
       }
 
-      .details-text-only { 
-        font-size: $info; 
+      .details-text-only {
+        font-size: $info;
         margin-top: 10px;
       }
 
       .upcoming-week {
         margin: 15px 0 15px 50px;
-        text-align: left; 
+        text-align: left;
 
-        p { 
+        p {
           font-size: $info;
           margin: -5px 0;
 
@@ -99,9 +100,9 @@ $hot: #ff5131; // 25 and above
         }
       }
 
-      .powered-by { 
+      .powered-by {
         margin-top: 20px;
-        color: $light-colour; 
+        color: $light-colour;
         font-size: $info-small;
       }
       .last-updated {
@@ -109,6 +110,5 @@ $hot: #ff5131; // 25 and above
         color: $dark-colour;
       }
     }
-  } 
+  }
 }
-
