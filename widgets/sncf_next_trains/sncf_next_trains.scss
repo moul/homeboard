@@ -1,0 +1,46 @@
+$background-color: #fff;
+$header-background-color: rgba(0, 0, 0, .3);
+
+.sncf_next_trains {
+    background-color: $background-color;
+    .updated-at {
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        background: $header-background-color;
+    }
+
+    .logo {
+        background-color: transparent;
+        float: right;
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+
+    .logo img {
+        float: right;
+    }
+
+    table.trains {
+        background-color: #BF3030;
+        font-size: 20px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+    table.trains td.line {
+        text-align: middle;
+        font-weight: bold;
+        background-color: #BF3030;
+    }
+
+    table.trains tr:nth-child(even) {
+        background-color:#A73939;
+    }
+
+    table.trains td.direction {
+        text-align: left;
+        padding-left: 1em;
+    }
+}
