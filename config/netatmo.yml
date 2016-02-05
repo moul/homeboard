@@ -2,6 +2,6 @@ app_id: your_app_id
 app_secret: your_app_secret
 username: your_username
 password: your_password
-indoor_name: Salon
+indoor_name: Rouen
 outdoor_name: Dehors
 interval: 60s
